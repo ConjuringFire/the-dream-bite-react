@@ -1,0 +1,48 @@
+.navbar {
+    color: #ffffff;
+    width: 100%;
+
+    .row {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
+}
+
+.hidden-nav {
+    position: absolute;
+    top: 1px;
+
+    .title {
+        display: none;
+    }
+}
+
+.sticky-nav {
+    height: 62px;
+    width: 100%;
+    background: #49a27e;
+
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+
+    .title {
+        display: block;
+        text-align: left;
+    }
+}
+
+.links {
+    font-weight: bold;
+    text-align: right;
+    text-transform: uppercase;
+
+    a {
+        margin-left: 1rem;
+    }
+}
